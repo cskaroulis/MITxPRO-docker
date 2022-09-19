@@ -4,9 +4,10 @@
   "description": "testing containers",
   "main": "index.js",
   "scripts": {
+    
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "abelsan <abel@mit.edu>",
+  "author": "colleenskaroulis <cskaroulis@yahoo.com>",
   "license": "MIT",
   "dependencies": {
     "express": "^4.15.5",

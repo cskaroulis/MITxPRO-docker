@@ -1,3 +1,4 @@
+# ORIGINAL
 mongo:
   image: mongo
   ports:
@@ -10,3 +11,18 @@ web:
   links:
     - mongo
   command: node index.js
+# version: "2"
+# services:
+#   web:
+#     container_name: web
+#     restart: always
+#     build: .
+#     ports:
+#       - "3000:3000"
+#     links:
+#       - mongo
+#   mongo:
+#     container_name: mongo
+#     image: mongo
+#     ports:
+#       - "27017:27017"
